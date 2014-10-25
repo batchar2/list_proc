@@ -3,7 +3,6 @@ KDIR = /lib/modules/$(CURRENT)/build/
 PWD = $(shell pwd)
 DEST = /lib/modules/$(CURRENT)/misc 
 EXTRA_CFLAGS = -O2 --no-warnings
-#CFLAGS = -O2 --no-warnings
 
 
 TARGET1 = list_proc
